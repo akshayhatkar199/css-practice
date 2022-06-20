@@ -1,0 +1,99 @@
+.heading{
+    background-color: black;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.continer{
+    /* background-color: aliceblue;
+    padding: 10px; */
+}
+
+.box-middle-1{
+    width: 100%;
+    height: 300px;
+}
+
+
+.info-box{
+    float: left;
+    width: 50%;
+    height: 300px;
+    background-color: red;
+     /* padding: 20px;      */
+}
+.image-box{
+    float: right;
+    width: 50%;
+    height: 300px;
+}
+
+.box-middle-2{
+    padding: 20px;
+    border: 2px solid;
+}
+
+.image{
+    width: 100%;
+    height: 300px;
+}
+
+.info-text1{
+    color: white;
+    font-size: 20px;
+
+}
+
+
+.info-text2{
+    color: white;
+    font-size: 20px;
+    padding-left: 20px;
+    font-weight: bolder;
+}
+.middle-heading-2{
+    padding-left: 20px;
+
+}
+.footer{
+    background-color: black;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 18px;
+}
+ .table1{
+    border-bottom: 4px solid hsl(168deg 99% 28%);
+    border-collapse: collapse;
+    box-shadow: 3px 1px 9px 1px #6f6f6f;
+    border-top-left-radius: 19px;
+    border-top-right-radius: 20px;
+    
+    
+ }
+
+ .table1 > tbody > tr > th{
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+ }
+ .table1 >tbody > tr > td {
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+ }
+ .color{
+    color: white;
+    background-color: hsl(168deg 99% 28%);
+ }
+
+ .color1{
+    color: hsl(168deg 99% 28%);
+ }

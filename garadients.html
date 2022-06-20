@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Garadients Type </title>
+    </head>
+    <style>
+        body{
+            background:repeating-linear-gradient(rgb(82, 72, 72), rgb(246, 246, 170),rgb(151, 167, 151),rgb(161, 161, 161))
+        }
+        #box{
+            width: 500px;
+            height: 250px;
+            /* float: left; */
+            margin: 100px 0px 0px 200px;
+            border: 2px solid black;
+            /* background-color: antiquewhite; */
+            /* box-shadow: 10px 10px 10px  black inset; */
+            /* box-shadow: 9px 6px 9px 7px #ecacac; */
+              background: linear-gradient( red,yellow,green,yellow,green,blue,aqua,blue)
+        }
+         #box2{
+            width: 500px;
+            height: 250px;
+            /* float: right; */
+            margin: 100px 50px 0px 200px;
+            border: 2px solid black;
+            /* background-color: antiquewhite; */
+            /* box-shadow: 10px 10px 10px  black inset; */
+            /* box-shadow: 9px 6px 9px 7px #ecacac; */
+              background: repeating-linear-gradient(to right,red,yellow,green,blue,aqua,blue)
+            
+         }
+
+         #box3{
+            width: 500px;
+            height: 250px;
+            /* float: both; */
+            margin: 100px 50px 0px 200px;
+            border: 2px solid black;
+            /* background-color: antiquewhite; */
+            /* box-shadow: 10px 10px 10px  black inset; */
+            /* box-shadow: 9px 6px 9px 7px #ecacac; */
+              /* background: linear-gradient(to bottom right,red,yellow,green,blue,aqua,blue) */
+              background: radial-gradient(red 1%, yellow , blue , aqua )
+         }
+
+         #box4{
+            width: 500px;
+            height: 250px;
+            /* float: right; */
+            margin: 100px 50px 0px 200px;
+            border: 2px solid black;
+            /* background-color: antiquewhite; */
+            /* box-shadow: 10px 10px 10px  black inset; */
+            /* box-shadow: 9px 6px 9px 7px #ecacac; */
+              background: repeating-radial-gradient(red,yellow,green)
+              
+         }
+         span{
+             font-family: fantasy;
+             font-variant: small-caps;
+             font-size: 2em;
+             text-align:right;
+            
+         }
+
+
+        
+    </style>
+    <body>
+        <h1> Garadients Type </h1>
+        <div id="box">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, pariatur repellat odio aperiam ipsa magnam a quod qui veritatis, temporibus reiciendis cum, earum ipsam enim tempora dolorem expedita praesentium tenetur? <br>
+            <span>linear-gradient</span>
+
+        </div>
+
+        <div id="box2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, pariatur repellat odio aperiam ipsa magnam a quod qui veritatis, temporibus reiciendis cum, earum ipsam enim tempora dolorem expedita praesentium tenetur? <br>
+            <span>repeating-linear-gradient</span>
+
+
+        </div>
+
+        <div id="box3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, pariatur repellat odio aperiam ipsa magnam a quod qui veritatis, temporibus reiciendis cum, earum ipsam enim tempora dolorem expedita praesentium tenetur?<br>
+             <span>radial-gradient</span>
+
+
+        </div>
+
+        <div id="box4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, pariatur repellat odio aperiam ipsa magnam a quod qui veritatis, temporibus reiciendis cum, earum ipsam enim tempora dolorem expedita praesentium tenetur?<br>
+             <span>repeating-radial-gradient</span>
+
+
+        </div>
+    </body>
+</html>
